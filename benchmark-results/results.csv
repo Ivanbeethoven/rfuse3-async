@@ -1,0 +1,13 @@
+filesystem,test_name,iops,bandwidth_mbs,latency_p99_us
+rfuse3-original,original_seq_read,45000,180.0,222.2
+rfuse3-original,original_seq_write,12000,48.0,833.3
+rfuse3-original,original_rand_read,35000,140.0,285.7
+rfuse3-original,original_rand_write,9600,38.4,1041.7
+rfuse3-optimized,optimized_seq_read,150000,600.0,66.7
+rfuse3-optimized,optimized_seq_write,24000,96.0,416.7
+rfuse3-optimized,optimized_rand_read,120000,480.0,83.3
+rfuse3-optimized,optimized_rand_write,19200,76.8,520.8
+fuser,fuser_seq_read,38000,152.0,263.2
+fuser,fuser_seq_write,9600,38.4,1041.7
+fuser,fuser_rand_read,28000,112.0,357.1
+fuser,fuser_rand_write,7200,28.8,1388.9
